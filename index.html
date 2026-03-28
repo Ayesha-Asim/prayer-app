@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Prayer Companion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🕌 Smart Prayer Companion</h1>
+
+  <div id="points">Points: 0</div>
+  <div id="streak">Streak: 0 🔥</div>
+
+  <h2>Today's Prayer Times</h2>
+  <ul id="prayerTimes">
+    <li>Fajr: --:--</li>
+    <li>Dhuhr: --:--</li>
+    <li>Asr: --:--</li>
+    <li>Maghrib: --:--</li>
+    <li>Isha: --:--</li>
+  </ul>
+
+  <h2>Mark Your Prayers</h2>
+  <button onclick="pray('Fajr')">Fajr</button>
+  <button onclick="pray('Dhuhr')">Dhuhr</button>
+  <button onclick="pray('Asr')">Asr</button>
+  <button onclick="pray('Maghrib')">Maghrib</button>
+  <button onclick="pray('Isha')">Isha</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
